@@ -35,7 +35,7 @@ Below we provide a graphical representation of the task flow.
 
 ![Alt text](http://g.gravizo.com/svg?
   digraph G {
-   aize ="4,4";
+   aize ="2,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    Data -> cleaning [weight=8];
