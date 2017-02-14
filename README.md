@@ -25,7 +25,7 @@ Aims And Objectives
 	3) Provide good visualisation of the results 
 	4) Model the relationship/correlation between air pollution and epidermic spread.
 	5) Use air pollution forecast to track epidermic cases in urban areas
-	6) Use the air pollution and epidermic tracking models to help in decision making for preventing epidermic spread
+	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
 	7) Implement simple Mobile apps that incorporates air polluton modelling and disease spread.
       
   -----------------------------------------------------------------------------------------------------------------------------
