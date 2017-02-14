@@ -35,14 +35,14 @@ Below we provide a graphical representation of the task flow.
 
 ![Alt text](http://g.gravizo.com/svg?
   digraph G {
-   size ="4,4";
+   size ="6,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    Data -> cleaning [weight=4];
    cleaning -> ModelRuns; 
    ModelRuns -> SimulatedConc;
    node [shape=circle,radius=1.3];
-   SimulatedConc -> statEval;[size="1.3",weight=3]
+   SimulatedConc -> statEval;
    node [shape=box,style=filled,color="gray"];
    statEval -> UsableModel ;[style=bold,label="Yes",color="green"];
    edge [color=red];
