@@ -71,6 +71,6 @@ Sources
 
 1) Abshiskey Tiwary and Jeremy Colls (2002), *Air Pollution : measurement, Modelling and Mitigation*, Routledge Taylor and Francis group , London and New York.
 
-2) Paolo Zanetti (1990) , *Air Plollution Modelling: Theories, Computational Methods and Available Software*, Computation Mechanics Library, Bookcraft Ltd, Avon, Uk. 
+2) Paolo Zanetti (1990) , *Air Plollution Modelling: Theories, Computational Methods and Available Software*, Computation Mechanics Publications, Bookcraft Ltd, Avon, Uk. 
       
       
