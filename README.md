@@ -47,7 +47,7 @@ Below we provide a graphical representation of the task flow.
    statEval -> ModifyModel;[style=bold,label="NO"]; 
    ModifyModel -> cleaning;
    Data [label="Data Collection"];
-   cleaning [label="Definition of Model Inputs"];
+   cleaning [label="Definition of Model Parameters"];
    ModelRuns [label="Model Runs"];
    SimulatedConc [label="Simulated Concentrations"];
    statEval [label="Statistical Evaluation O.K?"];
