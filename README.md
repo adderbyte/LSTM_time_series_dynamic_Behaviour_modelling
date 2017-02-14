@@ -15,7 +15,16 @@ This project counts as a Semester Project which is part of the requirement for a
 Introduction
 ---------------------------------------------------------------------------------------------------------------------------   
 The project is about Modelling Dynamic behaviour using Recurrent Neural Network. In particular we will be using Long Short term memory in this project (as an example of RNN). The implementation will be carried out using Tensor Flow. We will be modelling Air pollution as an example of a real life phenomenon that can be modelled as a time series -  using LSTM and tensorflow as our forecasting and modelling tool.
+-----------------------------------------------------------------------------------------------------------------------------
+Important Domain Knowledge for the project
+-----------------------------------------------------------------------------------------------------------------------------
+Important domain knowledge used in this project: 
 
+	1) Fundamentals of Air Pollution.
+	2) Simple epidermic spread Model.
+	3) Recurrent Neural Network (Long Short Term Memory)
+	4) Android App development.
+	
 ---------------------------------------------------------------------------------------------------------------------------
 Aims And Objectives
 ---------------------------------------------------------------------------------------------------------------------------
@@ -27,9 +36,9 @@ Aims And Objectives
 	5) Use air pollution forecast to track epidermic cases in urban areas
 	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
 	7) Implement simple Mobile apps that incorporates air polluton modelling and epidermic spread tracking.
-      
+
 ----------------------------------------------------------------------------------------------------------------------------
-Optimal Model Application Workflow.
+Optimal Model Selection Workflow.
 -----------------------------------------------------------------------------------------------------------------------------
 Below we provide a graphical representation of the task flow. 
 
