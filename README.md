@@ -39,7 +39,7 @@ Below we provide a graphical representation of the task flow.
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    Data -> Data_preprocess [weight=8];
-   Data_preprocess -> cleaning
+   Data_preprocess -> cleaning;
    cleaning -> ModelRuns; 
    ModelRuns -> SimulatedConc;
    SimulatedConc -> statEval;
