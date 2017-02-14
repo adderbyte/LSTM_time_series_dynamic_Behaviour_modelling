@@ -47,12 +47,12 @@ Below we provide a graphical representation of the task flow.
    statEval -> ModifyModel;[style=bold,label="NO"]; 
    ModifyModel -> cleaning;
    Data [label="Data Collection"];
-   cleaning [label="Definition of Model Inputs"]
-   ModelRuns [label="Model Runs"]
-   SimulatedConc [label="Simulated Concentrations"]
-   statEval [label="Statistical Evaluation O.K?]
-   UsableModel [label="Model can be used for decision Making"]
-   ModifyModel [label="Modify model inputs(Calibration)"]
+   cleaning [label="Definition of Model Inputs"];
+   ModelRuns [label="Model Runs"];
+   SimulatedConc [label="Simulated Concentrations"];
+   statEval [label="Statistical Evaluation O.K?"];
+   UsableModel [label="Model can be used for decision Making"];
+   ModifyModel [label="Modify model inputs(Calibration)"];
   }
 )    
       
