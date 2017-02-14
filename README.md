@@ -64,7 +64,7 @@ Below we provide a graphical representation of the task flow.
    Extract [label = "Extract clean Data"];
    Data_preprocess [label="Definition of Model Inputs"];
    Data [label="Data Collection"];
-   cleaning[label="Definition of Model Inputs"]
+   cleaning [label="Definition of Model Inputs"]
   }
 )    
       
