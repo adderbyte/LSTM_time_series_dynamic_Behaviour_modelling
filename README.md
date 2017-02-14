@@ -40,8 +40,7 @@ Below we provide a graphical representation of the task flow.
    Data [shape=box];
    Data -> Data_preprocess [weight=8];
    Data_preprocess -> cleaning
-   Data_preprocess -> Analysis; [style=bold,label="Check Description of raw data"];
-   Data_preprocess ->Visualization ; [style=bold,label="Visualise  raw Data "];
+
    cleaning -> Analysis; [style=bold,label=" 3 Actions pipeline.From cleaning to Visualisation."];
    Analysis -> Visualization;
    Visualization -> Extract;
@@ -65,6 +64,7 @@ Below we provide a graphical representation of the task flow.
    Extract [label = "Extract clean Data"];
    Data_preprocess [label="Definition of Model Inputs"];
    Data [label="Data Collection"];
+   cleaning[label="Definition of Model Inputs"]
   }
 )    
       
