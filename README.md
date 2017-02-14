@@ -43,7 +43,7 @@ Below we provide a graphical representation of the task flow.
    ModelRuns -> SimulatedConc;
    SimulatedConc -> statEval;
    node [shape=box,style=filled,color="gray"];
-   statEval -> UsableModel ;[style=bold,label="Yes",color="blue"];
+   statEval -> UsableModel ;[style=bold,label="Yes",color="green"];
    edge [color=red];
    statEval -> ModifyModel;[style=bold,label="No"]; 
    ModifyModel -> cleaning;
