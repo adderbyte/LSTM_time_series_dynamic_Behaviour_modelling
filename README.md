@@ -41,7 +41,7 @@ Below we provide a graphical representation of the task flow.
    Data -> cleaning [weight=4];
    cleaning -> ModelRuns; 
    ModelRuns -> SimulatedConc;
-   node [shape=circle,size="0.9"];
+   node [shape=circle,aize="0.9"];
    SimulatedConc -> statEval;
    node [shape=box,style=filled,color="gray"];
    statEval -> UsableModel ;[style=bold,label="Yes",color="green"];
