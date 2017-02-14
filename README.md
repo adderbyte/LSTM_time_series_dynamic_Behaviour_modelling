@@ -38,8 +38,7 @@ Below we provide a graphical representation of the task flow.
    aize ="4,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
-   Data -> Data_preprocess [weight=8];
-   Data_preprocess -> cleaning;
+   Data -> cleaning [weight=8];
    cleaning -> ModelRuns; 
    ModelRuns -> SimulatedConc;
    SimulatedConc -> statEval;
@@ -47,7 +46,6 @@ Below we provide a graphical representation of the task flow.
    statEval -> UsableModel ;[style=bold,label="YES"];
    statEval -> ModifyModel;[style=bold,label="NO"]; 
    ModifyModel -> cleaning;
-   Data_preprocess [label="Definition of Model Inputs"];
    Data [label="Data Collection"];
    cleaning [label="Definition of Model Inputs"]
    ModelRuns [label="Model Runs"]
