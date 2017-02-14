@@ -38,8 +38,7 @@ Below we provide a graphical representation of the task flow.
    aize ="2,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
-   node [shape=box,style=filled,color="gray"];
-   Data -> cleaning [weight=4];
+   Data -> cleaning [weight=4];[color="gray"];
    cleaning -> ModelRuns; 
    ModelRuns -> SimulatedConc;
    node [shape=ellipse,aize="0.9",weight=3];
