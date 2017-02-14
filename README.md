@@ -39,7 +39,7 @@ Below we provide a graphical representation of the task flow.
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    Data -> cleaning [weight=4,color="gray"];
-   cleaning -> ModelRuns; 
+   cleaning -> ModelRuns[color="gray"]; 
    ModelRuns -> SimulatedConc;
    node [shape=ellipse,aize="0.9",weight=3];
    SimulatedConc -> statEval;
