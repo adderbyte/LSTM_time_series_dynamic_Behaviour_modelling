@@ -39,6 +39,7 @@ Below we provide a graphical representation of the task flow.
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    {Emission;Meteorology;AirQuality}-> Data
+   AirQuality -> statEval;
    node [style=filled,weight=4,color="gray"];
    Data -> cleaning ; 
    node [shape=box,style=filled,color=".7 .3 1.0"];
@@ -55,9 +56,10 @@ Below we provide a graphical representation of the task flow.
    cleaning [label="Definition of Model Parameters"];
    ModelRuns [label="Model Runs"];
    SimulatedConc [label="Simulated Concentrations"];
-   statEval [label="Statistical Evaluation O.K?"];
+   statEval [label="Statistical Evaluation ok?"];
    UsableModel [label="Model can be used for decision Making"];
    ModifyModel [label="Modify model inputs(Calibration)"];
+   AirQuality [label="Air Quality"];
   }
 )    
       
