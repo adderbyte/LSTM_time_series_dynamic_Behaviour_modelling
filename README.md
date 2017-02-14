@@ -8,11 +8,65 @@
 ---------------------------------------
 Background
 ---------------------------------------
+This project counts as a Semester Project which is part of the requirement for a Master Degree in Communication Systems at Ecole Plytechnique Federale de Laussane. 
 
-The project is about Modelling Dynamic behaviour using Recurrent Neural Network. In particular we will be using Long Short term memory in this project (as an example of RNN). The implementation will be carried out using Tensor Flow. In addition in this project we will be modelling Air pollution as an example of a real life phenomenon that can be modelled as a time series using LSTM and tensorflow as our forecasting and modelling tool.
+      
+---------------------------------------------------------------------------------------------------------------------------
+Introduction
+---------------------------------------------------------------------------------------------------------------------------   
+The project is about Modelling Dynamic behaviour using Recurrent Neural Network. In particular we will be using Long Short term memory in this project (as an example of RNN). The implementation will be carried out using Tensor Flow. We will be modelling Air pollution as an example of a real life phenomenon that can be modelled as a time series -  using LSTM and tensorflow as our forecasting and modelling tool.
 
-This project counts as a Semester Project  and is part of the requirement for a Master Degree in Communication Systems at Ecole Plytechnique Federale de Laussane. 
+---------------------------------------------------------------------------------------------------------------------------
+Aims And Objectives
+---------------------------------------------------------------------------------------------------------------------------
 
+	1) Collect data from various sources and do  data-preprocessing 
+	2) Use LSTM/time series analysis  to predict air pollution 
+	3) Provide good visualisation of the results 
+	4) Model the relationship/correlation between air pollution and epidermic spread.
+	5) Use air pollution forecast to track epidermic cases in urban areas
+      6) Use the air pollution and epidermic tracking models to help people in decision making for preventing epidermic spread
+      7) Implement simple Mobile apps that incorporates air polluton modelling and disease spread.
+      
+  -----------------------------------------------------------------------------------------------------------------------------
+Summary of Task Flow
+-----------------------------------------------------------------------------------------------------------------------------
+Below we provide a graphical representation of the task flow. 
+
+![Alt text](http://g.gravizo.com/svg?
+  digraph G {
+   aize ="4,4";
+   node [shape=box,style=filled,color=".7 .3 1.0"];
+   Data [shape=box];
+   Data -> Data_preprocess [weight=8];
+   Data_preprocess -> cleaning
+   Data_preprocess -> Analysis; [style=bold,label="Check Description of raw data"];
+   Data_preprocess ->Visualization ; [style=bold,label="Visualise  raw Data "];
+   cleaning -> Analysis; [style=bold,label=" 3 Actions pipeline.From cleaning to Visualisation."];
+   Analysis -> Visualization;
+   Visualization -> Extract;
+   Extract -> ML;
+   ML -> ML ;[style=dotted,label=" Iterate through this step for Models Selection"]
+   node [shape=box,style=filled,color="gray"];
+   ML -> Parameter;
+   node [shape=box,style=filled,color=".7 .3 1.0"];
+   Parameter -> Testing_Validation;
+   Testing_Validation->Prediction
+   Prediction -> Parameter
+   node [shape=box,style=filled,color="gray"];
+   Prediction -> Visualization1
+   Visualization -> Visualization1
+   node [shape=box,style=filled,color="gray"];
+   {Data_preprocess;Visualization1;ML} -> Report;
+   Visualization1 [label = "Trends Visualiser"]
+   Testing_Validation[label = "Testing and Validation"]
+   Parameter [label = "Parameter tuning and optimization of Models"]
+   ML [label = "Do Machine Learning Algorithm"]
+   Extract [label = "Extract clean Data"];
+   Data_preprocess [label="Data Preprocessing"];
+   Data [label="Data Collection"];
+  }
+)    
       
       
       
