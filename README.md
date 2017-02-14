@@ -63,7 +63,7 @@ Below we provide a graphical representation of the task flow.
    Parameter [label = "Parameter tuning and optimization of Models"]
    ML [label = "Do Machine Learning Algorithm"]
    Extract [label = "Extract clean Data"];
-   Data_preprocess [label="Data Preprocessing"];
+   Data_preprocess [label="Definition of Model Inputs"];
    Data [label="Data Collection"];
   }
 )    
