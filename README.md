@@ -47,7 +47,7 @@ Below we provide a graphical representation of the task flow.
    ModelRuns -> SimulatedConc;
    node [shape=ellipse,aize="0.9",weight=3];
    SimulatedConc -> statEval;
-   node [shape=ellipse,style=filled,color="gray"];
+   node [shape=box,style=filled,color="gray"];
    statEval -> UsableModel ;[style=bold,label="Yes",color="green"];
    edge [color=red];
    statEval -> ModifyModel;[style=bold,label="No"]; 
