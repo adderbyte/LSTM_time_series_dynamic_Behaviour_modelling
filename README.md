@@ -28,7 +28,7 @@ Aims And Objectives
 	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
 	7) Implement simple Mobile apps that incorporates air polluton modelling and epidermic spread tracking.
       
-  -----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 Optimal Model Application Workflow.
 -----------------------------------------------------------------------------------------------------------------------------
 Below we provide a graphical representation of the task flow. 
