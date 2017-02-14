@@ -40,30 +40,21 @@ Below we provide a graphical representation of the task flow.
    Data [shape=box];
    Data -> Data_preprocess [weight=8];
    Data_preprocess -> cleaning
-   cleaning -> Analysis; [style=bold,label=" 3 Actions pipeline.From cleaning to Visualisation."];
-   Analysis -> Visualization;
-   Visualization -> Extract;
-   Extract -> ML;
-   ML -> ML ;[style=dotted,label=" Iterate through this step for Models Selection"]
+   cleaning -> ModelRuns; 
+   ModelRuns -> SimulatedConc;
+   SimulatedConc -> statEval;
    node [shape=box,style=filled,color="gray"];
-   ML -> Parameter;
-   node [shape=box,style=filled,color=".7 .3 1.0"];
-   Parameter -> Testing_Validation;
-   Testing_Validation->Prediction
-   Prediction -> Parameter
-   node [shape=box,style=filled,color="gray"];
-   Prediction -> Visualization1
-   Visualization -> Visualization1
-   node [shape=box,style=filled,color="gray"];
-   {Data_preprocess;Visualization1;ML} -> Report;
-   Visualization1 [label = "Trends Visualiser"]
-   Testing_Validation[label = "Testing and Validation"]
-   Parameter [label = "Parameter tuning and optimization of Models"]
-   ML [label = "Do Machine Learning Algorithm"]
-   Extract [label = "Extract clean Data"];
+   statEval -> UsableModel ;[style=bold,label="YES"];
+   statEval -> ModifyModel;[style=bold,label="NO"]; 
+   ModifyModel -> cleaning;
    Data_preprocess [label="Definition of Model Inputs"];
    Data [label="Data Collection"];
    cleaning [label="Definition of Model Inputs"]
+   ModelRuns [label="Model Runs"]
+   SimulatedConc [label="Simulated Concentrations"]
+   statEval [label="Statistical Evaluation O.K?]
+   UsableModel [label="Model can be used for decision Making"]
+   ModifyModel [label="Modify model inputs(Calibration)"]
   }
 )    
       
