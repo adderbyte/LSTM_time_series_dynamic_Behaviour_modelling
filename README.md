@@ -33,7 +33,7 @@ Summary of Task Flow
 -----------------------------------------------------------------------------------------------------------------------------
 Below we provide a graphical representation of the task flow. 
 
-![Alt text](http://g.gravizo.com/svg?
+![Alt text](http://g.gravizo.com/g?
   digraph G {
    aize ="2,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
