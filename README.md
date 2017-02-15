@@ -25,7 +25,20 @@ Important domain knowledge used in this project:
 	2) Simple epidermic spread Model.
 	3) Recurrent Neural Network (Long Short Term Memory)
 	4) Android App development.
-	
+
+---------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------
+
+	1) Collect data from various sources and do  data-preprocessing 
+	2) Use LSTM/time series analysis  to predict air pollution 
+	3) Provide good visualisation of the results 
+	4) Model the relationship/correlation between air pollution and epidermic spread.
+	5) Use air pollution forecast to track epidermic cases in urban areas
+	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
+	7) Implement simple Mobile apps that incorporates air polluton modelling and epidermic spread tracking.
+
+
 ---------------------------------------------------------------------------------------------------------------------------
 Aims And Objectives
 ---------------------------------------------------------------------------------------------------------------------------
@@ -76,11 +89,13 @@ Below we provide a graphical representation of the task flow.
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-Sources
+Resources
 -----------------------------------------------------------------------------------------------------------------------------
 
 1) Abshiskey Tiwary and Jeremy Colls (2002), *Air Pollution : measurement, Modelling and Mitigation*, Routledge Taylor and Francis group , London and New York.
 
 2) Paolo Zanetti (1990) , *Air Plollution Modelling: Theories, Computational Methods and Available Software*, Computation Mechanics Publications, Bookcraft Ltd, Avon, Uk. 
       
-      
+3) https://www.airnow.gov/index.cfm?action=aqibasics.aqi
+
+4) https://aqicn.org/faq/2015-03-15/air-quality-nowcast-a-beginners-guide/
