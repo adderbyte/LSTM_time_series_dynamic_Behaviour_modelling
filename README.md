@@ -26,18 +26,6 @@ Important domain knowledge used in this project:
 	3) Recurrent Neural Network (Long Short Term Memory)
 	4) Android App development.
 
----------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------
-
-	1) Collect data from various sources and do  data-preprocessing 
-	2) Use LSTM/time series analysis  to predict air quality 
-	3) Provide good visualisation of the results 
-	4) Model the relationship/correlation between air pollution and epidermic spread.
-	5) Use air pollution forecast to track epidermic cases in urban areas
-	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
-	7) Implement simple Mobile apps that incorporates air polluton modelling and epidermic spread tracking.
-
 
 ---------------------------------------------------------------------------------------------------------------------------
 Aims And Objectives
