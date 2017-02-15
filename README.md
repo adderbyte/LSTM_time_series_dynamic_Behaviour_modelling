@@ -2,7 +2,7 @@
       
       Project Title: Modelling Dynamic Behaviour with LSTM: AIR POLLUTION AS A CASE STUDY.
       BY           : Lukman Olagoke Olabisi.
-      LAB          : Artificial Intelligence LAb EPFL, Switzerland.
+      LAB          : Artificial Intelligence Lab EPFL, Switzerland.
       Date         : 2017 Spring Session.
 
 ---------------------------------------
@@ -31,7 +31,7 @@ Important domain knowledge used in this project:
 ---------------------------------------------------------------------------------------------------------------------------
 
 	1) Collect data from various sources and do  data-preprocessing 
-	2) Use LSTM/time series analysis  to predict air pollution 
+	2) Use LSTM/time series analysis  to predict air quality 
 	3) Provide good visualisation of the results 
 	4) Model the relationship/correlation between air pollution and epidermic spread.
 	5) Use air pollution forecast to track epidermic cases in urban areas
