@@ -8,7 +8,7 @@ quality of air thereby affecting the equilibrium  in the ecological cycle or the
 at and their release from a source; their transport and transformation in  the atmosphere; and their effects on human beings, materials, and ecosystems</p>
 
 -----
-#### Common Anthropogenic and Biogenic Pollutants
+#### Common Anthropogenic  Pollutants
 ----
 
 <p><strong>Sulfur dioxide:</strong> Coal, petroleum, and other fuels are often impure and contain sulfur as well as organic (carbon-based) compounds. When sulfur (spelled "sulphur" in some countries) burns with oxygen from the air, sulfur dioxide (SO2) is produced. Coal-fired power plants are the world's biggest source of sulfur-dioxide air pollution, which contributes to smog, acid rain, and health problems that include lung disease.</p>
