@@ -38,5 +38,5 @@ Parts per billion (nano) | 10<sup>-9</sup> | ppb | &mu;g m<sup>-3</sup>
 Parts per trillion (pico)| 10<sup>-12</sup> | ppt| ng m<sup>-3</sup> 
  
 <span>
-We can convert from volumetric to gravimetric units and viceversa. This will involve using the Avogadro's number, Molar mass of the gaseous molecule and standard volume.  We can also make correction for non standard temperature and pressure using the general gas equation (Boyle and Charle's law).
+We can convert from volumetric to gravimetric units and viceversa. This will involve using the Avogadro's number, Molar mass of the gaseous molecule and standard volume.  We can also make correction for non standard temperature and pressure using the general gas equation (Boyle and Charle's law). In the actual implementation of LSTM we will change to *Air Quality index* as unit of measurement. This will be discussed later
 </span>
