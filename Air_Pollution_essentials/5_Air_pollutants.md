@@ -1,8 +1,8 @@
 ----
-### Air Poluutants
+### Air Polutants
 -------
 We have defined air pollution and the composition of air. We now turn attention to the various air pollutants that can impact the 
-quality of air thereby affecting the equilibrium  in the ecological cycle or the well being of humans, plants or other organisms. It should be noted that it's the quantity (or concentration) of a chemical in the air that makes the difference between "harmless" and "pollution." Carbon dioxide (CO2), for example, is present in the air around you at a typical concentration of less than 0.05 percent and breathing it in usually does no harm (you breathe it out all day long); but air with an extremely high concentration of carbon dioxide (say, 5–10 percent) is toxic. Any gas or particles could qualify as pollution if it reached a high enough concentration to do harm. 
+quality of air thereby affecting the equilibrium  in the ecological cycle or the well being of humans, plants or other organisms -that is causing air pollution. It should be noted that it's the quantity (or concentration) of a chemical in the air that makes the difference between "harmless" and "pollution." Carbon dioxide (CO2), for example, is present in the air around you at a typical concentration of less than 0.05 percent and breathing it in usually does no harm (you breathe it out all day long); but air with an extremely high concentration of carbon dioxide (say, 5–10 percent) is toxic. Any gas or particles could qualify as pollution if it reached a high enough concentration to do harm. 
 
 <p>In addition we conclude that the phenomenon of air pollution usually involves a sequence of events: the generation of pollutants
 at and their release from a source; their transport and transformation in  the atmosphere; and their effects on human beings, materials, and ecosystems</p>
