@@ -68,7 +68,7 @@ The vertical composition of the earth is divided into *homosphere* and *heterosp
 
 
 <p align="center">
-<img src="/Air_Pollution_essentials/Images_Air_pollution/atmospheric_mass.png">
+<img src="/Air_Pollution_essentials/Images_Air_pollution/atmosphere_composition.png">
 </p>
 
 
