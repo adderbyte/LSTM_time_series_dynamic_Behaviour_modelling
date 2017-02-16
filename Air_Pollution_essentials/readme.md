@@ -1,10 +1,17 @@
 
 ### Title:  AIR POLLUTION FUNDAMENTALS
-##### @Author LUKMAN OLAGOKE OLABISI
-##### @Date 15 FEB 2017
+##### @author LUKMAN OLAGOKE OLABISI
+##### @date 15 FEB 2017
 
 
 ---------
 #### Introduction
 -----------
-This folder provides essential theoretical or domain  knowledge required before we can use Machine Learning models.
+This folder provides essential theoretical or domain  knowledge in air polluion studies that can help us in building a robust model. The files are added as .md files and have been written to be very short so that the concepts can be easily assimilated.
+
+---------
+#### Contents
+---------
+
+  1) Air Pollution
+  2) Composition of 
