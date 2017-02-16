@@ -1,7 +1,7 @@
 
 ### Title:  AIR POLLUTION FUNDAMENTALS
-##### @author LUKMAN OLAGOKE OLABISI
-##### @date 15 FEB 2017
+##### @ author LUKMAN OLAGOKE OLABISI
+##### @ date 15 FEB 2017
 
 
 ---------
