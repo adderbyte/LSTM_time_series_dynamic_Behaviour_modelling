@@ -13,10 +13,7 @@ This folder provides essential theoretical or domain  knowledge in air polluion 
 #### Contents
 ---------
 
-  1) Air Pollution
-  2) Composition of 
-
-
+<p>Attention should be to the naminf of the files. The names of the files starts with a number which shows the sequence by which the files should be read</p>
 
 ----------
 #### Additional Reference for this session
