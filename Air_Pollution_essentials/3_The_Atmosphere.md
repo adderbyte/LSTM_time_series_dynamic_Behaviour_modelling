@@ -67,7 +67,9 @@ The vertical composition of the earth is divided into *homosphere* and *heterosp
 <p> The Ozonosphere is a continuous layer of maximum ozone concentration between 9 and 30 miles. </p>
 
 
-
+<p align="center">
+<img src="/Air_Pollution_essentials/Images_Air_pollution/atmospheric_mass.png">
+</p>
 
 
 </span>
