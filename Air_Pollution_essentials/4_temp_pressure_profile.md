@@ -49,7 +49,7 @@ These layers are <strong> Troposphere, Stratosphere, Mesosphere, Thermosphere, a
   4. Little or no vertical streaming but strong horizontal winds called *Jet streams* occur.
   5. Source of heat for this layer is at the stratopause where absorption of UV radiation by ozone occurs.
   
-
+The other two layers are not discussed here. 
 
 
 </span>
