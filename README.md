@@ -42,7 +42,7 @@ Aims And Objectives
 ---------------------------------------------------------------------------------------------------------------------------
 Using this Repo
 ---------------------------------------------------------------------------------------------------------------------------
-The following order of is perhaps recommended for accessing the files provided in this repo:
+The following order is perhaps recommended for assessing the files provided in this repo:
 
 	1) Air Pollution Essentials
 	2) Tensor Flow Tutorial
