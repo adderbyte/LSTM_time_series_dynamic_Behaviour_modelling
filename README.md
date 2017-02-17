@@ -39,6 +39,16 @@ Aims And Objectives
 	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
 	7) Implement simple Mobile apps that incorporates air polluton modelling and epidermic spread tracking.
 
+---------------------------------------------------------------------------------------------------------------------------
+Using this Repo
+---------------------------------------------------------------------------------------------------------------------------
+The following order of is perhaps recommended for accessing the files provided in this repo:
+
+	1) Air Pollution Essentials
+	2) Tensor Flow Tutorial
+	3) LSTM/ RNN
+	4) Moile apps
+	
 ----------------------------------------------------------------------------------------------------------------------------
 Optimal Model Selection Workflow.
 -----------------------------------------------------------------------------------------------------------------------------
