@@ -16,7 +16,7 @@ The tutorials will follow a sequential order. From the simple tensorflow hello w
 We will focus mostly on building  Neural nets models - other non-neural nets models are also possible with tensorflow. There are plenty of tutorials to get started on the theoretical underpinnings of neural nets. Some of these are provided under the heading "resources" just below.
 
 --------------
-### RESOURCES
+### RESOURCES 
 --------------
 Useful links for theoratical concepts on neural nets:
   1. http://neuralnetworksanddeeplearning.com/about.html
