@@ -25,8 +25,9 @@ Useful links for theoratical concepts on neural nets:
 
 For Jupyter/Ipython Notebook installation:
   1. https://jupyter.readthedocs.io/en/latest/install.html
+ 
   
-For more details on TensorFlow:
+For TensorFlow (Installation and more details):
   1. https://www.tensorflow.org/
  
 </span>
