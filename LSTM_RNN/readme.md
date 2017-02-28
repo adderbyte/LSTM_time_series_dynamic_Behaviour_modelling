@@ -17,27 +17,16 @@ _____
    aize ="2,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
-   {Emission;Meteorology;AirQuality}-> Data
-   AirQuality -> statEval;
+   Data->{HMM;LSTM}
    node [style=filled,weight=4,color="gray"];
-   Data -> cleaning ; 
    node [shape=box,style=filled,color=".7 .3 1.0"];
-   cleaning -> ModelRuns; 
-   ModelRuns -> SimulatedConc;
-   node [shape=ellipse]
-   SimulatedConc -> statEval;
-   node [shape=box,color="gray"];
-   statEval -> UsableModel ;[style=bold,label="Yes",color="green"];
-   edge [color=red];
-   statEval -> ModifyModel;[style=bold,label="No"]; 
-   ModifyModel -> cleaning;
-   Data [label="Data Collection"];
-   cleaning [label="Definition of Model Parameters"];
-   ModelRuns [label="Model Runs"];
-   SimulatedConc [label="Simulated Concentrations"];
-   statEval [label="Statistical Evaluation ok?"];
-   UsableModel [label="Model can be used for decision Making"];
-   ModifyModel [label="Modify model inputs(Calibration)"];
-   AirQuality [label="Air Quality"];
+   LSTM -> Output; 
+   HMM -> HMM_STATE
+   
+   {Output;HMM_STATE} -> {Linear}
+   {Linear} -> {Prediction}
+   Output [label="LSTM output"];
+   LSTM [label="VAriants of LSTM: (Tree LSTM or Conv LSTM)"];
+   HMM_STATE [label="HMM state Probabilities"];
   }
 ) 
