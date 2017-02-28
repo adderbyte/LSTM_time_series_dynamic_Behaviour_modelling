@@ -47,7 +47,7 @@ The following order is perhaps recommended for assessing the files provided in t
 	1) Air Pollution Essentials
 	2) Tensor Flow Tutorial
 	3) LSTM/ RNN
-	4) Moile apps
+
 	
 ----------------------------------------------------------------------------------------------------------------------------
 Optimal Model Selection Workflow.
