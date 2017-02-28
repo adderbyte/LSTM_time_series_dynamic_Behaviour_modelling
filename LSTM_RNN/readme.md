@@ -17,6 +17,7 @@ _____
    aize ="2,4";
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
+   HMM [shape = ellipse]
    Data->{HMM;LSTM}
    node [style=filled,weight=4,color="gray"];
    LSTM -> Output; 
@@ -24,7 +25,7 @@ _____
    {Output;HMM_STATE} -> {Linear};
    {Linear} -> {Prediction};
    Output [label="LSTM output"];
-   LSTM [label="VAriants of LSTM: (Tree LSTM or Conv LSTM)"];
+   LSTM [label="Variants of LSTM: (Tree LSTM or Conv LSTM)"];
    HMM_STATE [label="HMM state Probabilities"];
   }
 ) 
