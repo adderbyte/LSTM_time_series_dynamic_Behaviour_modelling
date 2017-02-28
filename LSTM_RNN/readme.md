@@ -14,14 +14,17 @@
   digraph G {
    aize ="2,4";
    Data [shape=box];
-   node [style=filled,color="#7CFC00"];
+   node [style=filled,color=".7 .3 1.0"];
    HMM [shape = ellipse]
    LSTM [shape = ellipse]
    Data->{HMM;LSTM}
-   node [style=filled,weight=4,color="white"];
+   node [shape = box,style=filled,weight=4,color="white"];
+   Output [shape=box];
+   HMM_STATE [shape=box];
    LSTM -> Output; 
    HMM -> HMM_STATE;
-   node [shape=box,style=filled,color="#7CFC00"];
+   node [shape=box,style=filled,color=".7 .3 1.0"];
+   Linear [shape = ellipse];
    {Output;HMM_STATE} -> {Linear};
    node [shape=box,style=filled,color="white"];
    {Linear} -> {Prediction};
