@@ -2,7 +2,7 @@
 ## Long Short Term Memory
 ------
 
-<p> In this folder we implement long short term memory for air quality prediction</p>
+<p> In this folder we implement long short term memory for air quality prediction. We will generally folllow the flow graph that is presented below.</p>
 
 
 ## Proposed Model
@@ -33,3 +33,9 @@
    HMM_STATE [label="HMM State Probabilities"];
   }
 ) 
+
+---
+# Reference
+---
+<p>Vrakovna,Finale(2016), <i>Increasing the Interpretability of Neural Networks Using Hidden Markov Chains</i> 2016 ICML Workshop on Human Interpretability in Machine Learning</p>
+
