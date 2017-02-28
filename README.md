@@ -24,7 +24,7 @@ Important domain knowledge used in this project:
 	1) Fundamentals of Air Pollution.
 	2) Simple epidermic spread Model.
 	3) Recurrent Neural Network (Long Short Term Memory)
-	4) Android App development.
+	
 
 
 ---------------------------------------------------------------------------------------------------------------------------
