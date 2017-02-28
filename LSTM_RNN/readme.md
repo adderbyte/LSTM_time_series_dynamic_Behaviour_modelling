@@ -24,7 +24,7 @@
    {Output;HMM_STATE} -> {Linear};
    {Linear} -> {Prediction};
    Output [label="LSTM output"];
-   LSTM [label="Tree LSTM or Conv LSTM"];
+   LSTM [label="Tree-based or Conv LSTM"];
    HMM_STATE [label="HMM state Probabilities"];
   }
 ) 
