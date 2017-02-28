@@ -18,6 +18,7 @@ _____
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    HMM [shape = ellipse]
+   LSTM [shape = ellipse]
    Data->{HMM;LSTM}
    node [style=filled,weight=4,color="gray"];
    LSTM -> Output; 
