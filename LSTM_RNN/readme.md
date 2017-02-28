@@ -37,5 +37,5 @@
 ---
 # Reference
 ---
-<p>Vrakovna,Finale(2016), <i>Increasing the Interpretability of Neural Networks Using Hidden Markov Chains</i> 2016 ICML Workshop on Human Interpretability in Machine Learning</p>
+<p>Vrakovna,Finale(2016), <i>Increasing the Interpretability of Neural Networks Using Hidden Markov Chains,</i> 2016 ICML Workshop on Human Interpretability in Machine Learning. arXiv:1606.05320v2[stat ML]</p>
 
