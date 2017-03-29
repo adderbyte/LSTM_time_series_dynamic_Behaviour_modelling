@@ -13,3 +13,11 @@ some values might be missing. There might be some information in missingness. Th
 for dealing with missingness.
 
 </p>
+
+Sources:
+
+  1. Roderick,Rubin (2002): <i>Statistical Analysis with missing data</i>, JohnWiley & Sons , US
+  2. US National Library of Medicine Article Online, PMCID: PMC1839993, NIHMSID: NIHMS16073 : <i> Much ado about nothing: A comparison of missing data methods and software to fit incomplete data regression models  </i>   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1839993/
+  
+  3. Zhenpig Chen et al (Jun 2016), <i> Recurrent neural Network for Multivariate time series with Missing values</i>, US, 	arXiv:1606.01865 
+  4. Zachary C. et al (Nov 2016), <i> Modeling Missing Data in Clinical Time Series with RNNs </i> , US, arXiv:1606.04130v5
