@@ -22,8 +22,9 @@ Important Domain Knowledge for the project
 Important domain knowledge used in this project: 
 
 	1) Fundamentals of Air Pollution.
-	2) Simple epidermic spread Model.
-	3) Recurrent Neural Network (Long Short Term Memory)
+	2) Statistical Analysis of data.
+	3) Time series Forecast
+	4) Recurrent Neural Network (Long Short Term Memory)
 	
 
 
@@ -34,11 +35,9 @@ Aims And Objectives
 	1) Collect data from various sources and do  data-preprocessing 
 	2) Use LSTM/time series analysis  to predict air pollution 
 	3) Provide good visualisation of the results 
-	4) Model the relationship/correlation between air pollution and epidermic spread.
-	5) Use air pollution forecast to track epidermic cases in urban areas
-	6) Use the air pollution and epidermic tracking models to help in decision making for preventing disease spread
-	7) Implement simple Mobile apps that incorporates air polluton modelling and epidermic spread tracking.
-
+	4) Model the relationship/correlation between air pollutants
+	5) Deal with Missing data
+	
 ---------------------------------------------------------------------------------------------------------------------------
 Using this Repo
 ---------------------------------------------------------------------------------------------------------------------------
