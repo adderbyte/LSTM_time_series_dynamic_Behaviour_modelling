@@ -52,7 +52,12 @@ The following order is perhaps recommended for assessing the files provided in t
 Optimal Model Selection Workflow.
 -----------------------------------------------------------------------------------------------------------------------------
 Below we provide a graphical representation of the task flow. 
-{::comment}
+[](
+Your comments go here however you cannot leave
+// a blank line so fill blank lines with
+//
+Something
+
 ![Alt text](http://g.gravizo.com/svg?
 digraphG{
 aize="2,4";
@@ -82,7 +87,7 @@ node [shape=box,style=filled,color=".7 .3 1.0"];
    AirQuality [label="Air Quality"];
   }
 )
-{:/comment}
+)
  <p align="center">
   <img src="http://g.gravizo.com/svg?digraph%20G%20{aize=%222,4%22;node%20[shape=box,style=filled,color=%22.7%20.3%201.0%22];%20%20%20Data%20[shape=box];%20%20%20{Emission;Meteorology;AirQuality}-%3E%20Data%20%20%20AirQuality%20-%3E%20statEval;%20%20%20node%20[style=filled,weight=4,color=%22gray%22];%20%20%20Data%20-%3E%20cleaning%20;%20%20%20%20node%20[shape=box,style=filled,color=%22.7%20.3%201.0%22];%20%20%20cleaning%20-%3E%20ModelRuns;%20%20%20%20ModelRuns%20-%3E%20SimulatedConc;%20%20%20node%20[shape=ellipse]%20%20%20SimulatedConc%20-%3E%20statEval;%20%20%20node%20[shape=box,color=%22gray%22];%20%20%20statEval%20-%3E%20UsableModel%20;[style=bold,label=%22Yes%22,color=%22green%22];%20%20%20edge%20[color=red];%20%20%20statEval%20-%3E%20ModifyModel;[style=bold,label=%22No%22];%20%20%20%20ModifyModel%20-%3E%20cleaning;%20%20%20Data%20[label=%22Data%20Collection%22];%20%20%20cleaning%20[label=%22Definition%20of%20Model%20Parameters%22];%20%20%20ModelRuns%20[label=%22Model%20Runs%22];%20%20%20SimulatedConc%20[label=%22Simulated%20Concentrations%22];%20%20%20statEval%20[label=%22Statistical%20Evaluation%20ok?%22];%20%20%20UsableModel%20[label=%22Model%20can%20be%20used%20for%20decision%20Making%22];%20%20%20ModifyModel%20[label=%22Modify%20model%20inputs(Calibration)%22];%20%20%20AirQuality%20[label=%22Air%20Quality%22];%20%20})" width="650"/>
   
