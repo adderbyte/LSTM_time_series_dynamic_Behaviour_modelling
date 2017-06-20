@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Air Pollution Time Line Per Region</title>
+
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
+
+</head>
+<body>
+<script>
+var x = d3.scale.linear()
+    .range([0, 50]);
+
+  var y = d3.scale.linear()
+    .range([0, 20]);
+
+  var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("top");
+  x.domain([0, 50]);
+
+   var yAxis = d3.svg.axis()
+    .scale(y).ticks(11);
+    .orient("right");
+
+  x.domain([0, 50]);
+
+  y.domain([0, 20]);
+
+  svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(20,250)")
+    .call(xAxis);
+
+x.domain(d3.extent(data[1].years, function(d) { return d.years; })).nice();
+
+
+
+
+</script>
+<span class="title">Timeline for  Air Pollutants Across  Different Regions
+
+</span>
+
+<span class="attrib">Adapted From: <a href="http://vislives.com/" target="_blank"> Chris Putney Viz GitHub</a></span>
+
+<div id="chart"></div>
+<span class="legend"> <span
+        class="safety">Semester Project,2017</span> | <span class="lapped">Air Pollution </span> | Air Pollution Timeline</span>
+<script src="lap-chart.js" type="text/javascript"></script>
+</body>
+</html>
