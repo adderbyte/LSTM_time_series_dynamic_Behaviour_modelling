@@ -11,7 +11,7 @@ Background
 This project counts as a Semester Project which is part of the requirement for a Master Degree in Communication Systems at Ecole Plytechnique Federale de Laussane. 
 
 `Update: Use the Updated version of the LSTM model. Though it uses a different data set. It gives better results. Adapts it
-to any case scenario`
+to any case scenario as desired.`
       
 ---------------------------------------------------------------------------------------------------------------------------
 Introduction
@@ -104,3 +104,8 @@ Resources
 3) https://www.airnow.gov/index.cfm?action=aqibasics.aqi
 
 4) https://aqicn.org/faq/2015-03-15/air-quality-nowcast-a-beginners-guide/
+
+---------------------------------------------------------------------------------------------------------------------------
+License
+---------------------------------------------------------------------------------------------------------------------------
+MIT
