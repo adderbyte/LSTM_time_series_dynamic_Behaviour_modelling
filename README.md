@@ -10,6 +10,8 @@ Background
 ---------------------------------------
 This project counts as a Semester Project which is part of the requirement for a Master Degree in Communication Systems at Ecole Plytechnique Federale de Laussane. 
 
+`Update: Use the Updated version of the LSTM model. Though it uses a different data set. It gives better results. Adapts it
+to any case scenario`
       
 ---------------------------------------------------------------------------------------------------------------------------
 Introduction
