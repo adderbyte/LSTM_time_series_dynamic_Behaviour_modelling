@@ -101,9 +101,9 @@ Resources
 
 2) Paolo Zanetti (1990) , *Air Plollution Modelling: Theories, Computational Methods and Available Software*, Computation Mechanics Publications, Bookcraft Ltd, Avon, Uk. 
       
-3) https://www.airnow.gov/index.cfm?action=aqibasics.aqi
+3) [a quality index](https://www.airnow.gov/index.cfm?action=aqibasics.aqi)
 
-4) https://aqicn.org/faq/2015-03-15/air-quality-nowcast-a-beginners-guide/
+4) [Air quality Beginner's Guide](https://aqicn.org/faq/2015-03-15/air-quality-nowcast-a-beginners-guide/)
 
 ---------------------------------------------------------------------------------------------------------------------------
 License
