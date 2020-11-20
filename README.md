@@ -1,7 +1,7 @@
 # Semester Project
       
       Project Title: Modelling Dynamic Temporal Behaviour Using Recurrent Neural Networks: AIR POLLUTION AS A CASE STUDY.
-      BY           : Lukman Olagoke Olabisi.
+      BY           : @adderbyte.
       LAB          : Artificial Intelligence Lab EPFL, Switzerland.
       Date         : 2017 Spring Session.
 
